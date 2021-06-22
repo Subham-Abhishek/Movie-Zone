@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/jpg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <title>Movie Zone - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="home.html"><img src="logo.png" alt="Sorry"></a>
+        <ul>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="login.html">Log In</a></li>
+            <li><a href="home.html">Home</a></li>
+        </ul>
+    </nav>
+    <div id="signup_signin_form">
+        <div id="container">
+            <form id="form">
+                <img src="logo.png" alt="">;
+                <input type="text" name="name" id="name" placeholder="Enter Your Name*" required>
+                <input type="number" name="contact" id="contact" placeholder="Mobile No.*" required>
+                <input type="email" name="mail" id="mail" placeholder="Enter your E-Mail*" required>
+                <input type="password" name="pass" id="pass" placeholder="Type your Password*" required>
+                <button id="register_login" onclick="register(event)">REGISTER</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="signup.js"></script>
+</html>
